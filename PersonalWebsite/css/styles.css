@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #f4f6ff;
+  padding-top: 100px;
+}
+
+.top-container h1 {
+  margin-top: 30px;
+  font-size: 5rem;
+  font-family: "Permanent Marker", cursive;
+  color: #ffcb74;
+}
+
+.top-container p {
+  font-size: 2.5rem;
+  color: #4f8a8b;
+  margin: auto;
+}
+
+.wind {
+  width: 20%;
+  padding-top: 100px;
+}
+
+.middle-container {
+  font-size: 1.5rem;
+  color: #5d6063;
+  margin: 150px 0;
+}
+
+.middle-container h2 {
+  margin: 70px;
+  font-size: 2.3rem;
+  font-family: "Bree Serif", serif;
+  color: #4f8a8b;
+}
+
+.education-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.education {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description {
+  text-align: left;
+  width: 50%;
+  margin: auto;
+}
+.description p {
+  overflow: hidden;
+}
+.description img {
+  width: 20%;
+  float: left;
+  margin-right: 50px;
+}
+
+.no-bullets {
+  list-style-type: none;
+  margin: auto;
+  width: 30%;
+  text-align: left;
+}
+
+.bottom-container {
+  font-size: 1.5rem;
+  color: #5d6063;
+}
+
+.bottom-container h2 {
+  margin: 70px;
+  font-size: 2.3rem;
+  font-family: "Bree Serif", serif;
+  color: #4f8a8b;
+}
+.bottom-container p {
+  margin-bottom: 70px;
+}
+footer {
+  margin-top: 100px;
+  height: 250px;
+  padding: 100px;
+  background-color: #f4f6ff;
+}
+.social-media {
+  display: flex;
+  justify-content: space-evenly;
+  color: #ea907a;
+}
+.copyright {
+  margin-top: 50px;
+  color: #ea907a;
+}
+a {
+  color: #ea907a;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #4f8a8b;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffcb74;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+hr {
+  border: dotted #d3e2e2 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.btn {
+  margin-top: 150px;
+}
